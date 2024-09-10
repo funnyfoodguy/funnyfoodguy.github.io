@@ -8578,7 +8578,7 @@ $jscomp.polyfill = function (e, r, p, m) {
             transition: 'transform .2s cubic-bezier(0.550, 0.085, 0.680, 0.530), background-color 0s linear .2s'
           });
           _this50.$anchor.css({
-            overflow: 'visible',
+            overflow: 'hidden',
             transform: '',
             transition: 'transform .2s'
           });
