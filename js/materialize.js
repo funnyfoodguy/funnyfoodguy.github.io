@@ -2607,7 +2607,7 @@ $jscomp.polyfill = function (e, r, p, m) {
           if (alignments.bottom) {
             verticalAlignment = 'bottom';
           } else {
-            this.isScrollable = true;
+            this.isScrollable = false;
 
             // Determine which side has most space and cutoff at correct height
             if (alignments.spaceOnTop > alignments.spaceOnBottom) {
