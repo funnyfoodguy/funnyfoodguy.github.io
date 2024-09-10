@@ -2104,7 +2104,7 @@ $jscomp.polyfill = function (e, r, p, m) {
             complete: function () {
               $body.css({
                 height: '',
-                overflow: '',
+                overflow: 'hidden',
                 padding: '',
                 display: ''
               });
@@ -5871,7 +5871,7 @@ $jscomp.polyfill = function (e, r, p, m) {
       key: "_enableBodyScrolling",
       value: function _enableBodyScrolling() {
         var body = document.body;
-        body.style.overflow = '';
+        body.style.overflow = 'hidden';
       }
     }, {
       key: "open",
