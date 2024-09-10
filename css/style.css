@@ -31,3 +31,6 @@ li {
 .btn-large:hover {
   transform: scale(1.1);
 }
+body {
+  overflow: hidden;
+}
