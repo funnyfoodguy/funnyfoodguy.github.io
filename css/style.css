@@ -9,7 +9,11 @@
 	font-size: inherit;
 }
 html {
-  font-family: Segoe UI; }
+  font-family: Segoe UI;
+  overflow: hidden;
+  overflow-y: hidden;
+  height: 100%;
+}
 .sidenav {
   color: #000000;
 }
@@ -33,4 +37,6 @@ li {
 }
 body {
   overflow: hidden;
+  overflow-y: hidden;
+  height: 100%;
 }
