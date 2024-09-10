@@ -2064,7 +2064,7 @@ $jscomp.polyfill = function (e, r, p, m) {
             easing: 'easeInOutCubic',
             complete: function (anim) {
               $body.css({
-                overflow: '',
+                overflow: 'hidden',
                 paddingTop: '',
                 paddingBottom: '',
                 height: ''
