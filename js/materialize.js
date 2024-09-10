@@ -8647,12 +8647,12 @@ $jscomp.polyfill = function (e, r, p, m) {
             width: '',
             bottom: '',
             left: '',
-            overflow: '',
+            overflow: 'hidden',
             'background-color': '',
             transform: 'translate3d(' + -_this51.offsetX + 'px,0,0)'
           });
           _this51.$anchor.css({
-            overflow: '',
+            overflow: 'hidden',
             transform: 'translate3d(0,' + _this51.offsetY + 'px,0)'
           });
 
