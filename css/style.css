@@ -12,7 +12,6 @@ html {
   font-family: Segoe UI;
   overflow: hidden;
   overflow-y: hidden;
-  height: 100%;
 }
 .sidenav {
   color: #000000;
@@ -34,13 +33,4 @@ li {
 }
 .btn-large:hover {
   transform: scale(1.1);
-}
-body {
-  overflow: hidden;
-  overflow-y: hidden;
-  height: 100vh;
-  margin: 0;
-}
-html, body {
-  height: 100%;
 }
