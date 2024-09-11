@@ -40,3 +40,15 @@ body {
   overflow-y: hidden;
   height: 100%;
 }
+.fix-small {
+  height: 150vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 150);
+}
+.fix-med {
+  height: 150vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 150);
+}
+.fix-large {
+  height: 150vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 137);
+}
