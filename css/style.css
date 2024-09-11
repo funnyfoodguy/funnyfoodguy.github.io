@@ -32,9 +32,6 @@ li {
 .brand-logo {
   font-weight: 500;
 }
-#small-button{
-  margin-top: 28vh;
-}
 .btn-large:hover {
   transform: scale(1.1);
 }
