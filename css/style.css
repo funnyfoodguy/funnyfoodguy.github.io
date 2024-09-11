@@ -40,7 +40,3 @@ body {
   overflow-y: hidden;
   height: 100%;
 }
-.fixed-container {
-  max-width: 100%;
-  width: 100%;
-}
