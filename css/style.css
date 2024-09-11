@@ -40,21 +40,3 @@ body {
   overflow-y: hidden;
   height: 100%;
 }
-html, body {
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
-}
-.fix-large {
-  height: 137vh;
-  height: calc(var(--vh, 1vh) * 137);
-}
-.fix-med {
-  height: 150vh;
-  height: calc(var(--vh, 1vh) * 150);
-}
-.fix-small {
-  height: 150vh;
-  height: calc(var(--vh, 1vh) * 150);
-  margin-top: 28vh;
-  margin-top: calc(var(--vh, 1vh) * 28);
-}
