@@ -2,7 +2,7 @@
 
 
 @font-face {
-    font-family: SegoeUI;
+    font-family: Segoe UI;
     src:
         local("Segoe UI Light"),
         url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family: SegoeUI;
+    font-family: Segoe UI;
     src:
         local("Segoe UI Semilight"),
         url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2) format("woff2"),
@@ -22,7 +22,7 @@
 }
 
 @font-face {
-    font-family: SegoeUI;
+    font-family: Segoe UI;
     src:
         local("Segoe UI"),
         url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
@@ -32,7 +32,7 @@
 }
 
 @font-face {
-    font-family: SegoeUI;
+    font-family: Segoe UI;
     src:
         local("Segoe UI Bold"),
         url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2) format("woff2"),
@@ -42,7 +42,7 @@
 }
 
 @font-face {
-    font-family: SegoeUI;
+    font-family: Segoe UI;
     src:
         local("Segoe UI Semibold"),
         url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2) format("woff2"),
