@@ -18,7 +18,7 @@ nav .brand-logo {
   display: contents;
 }
 #logo-container {
-  
+  pointer-events: all;
 }
 li {
   font-weight: 500;
