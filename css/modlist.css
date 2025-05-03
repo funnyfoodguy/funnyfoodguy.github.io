@@ -1,0 +1,68 @@
+/* Custom Stylesheet */
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+html {
+  font-family: Segoe UI, sans-serif;
+}
+.sidenav {
+  color: #000000;
+}
+.sidenav-trigger {
+  color: #000000;
+}
+nav .brand-logo {
+  display: contents;
+}
+#logo-container {
+  pointer-events: none;
+}
+li {
+  font-weight: 500;
+}
+.brand-logo {
+  font-weight: 500;
+}
+.btn-large:hover {
+  transform: scale(1.1);
+}
+.filled-in.filled-in:checked+span:not(.lever):after {
+  border: 2px solid #000000;
+  background-color: #000000;
+}
+p {
+  font-size:1.1rem;
+}
+a {
+  font-size: 1.1rem;
+  color: black;
+}
+a:link {
+  color: teal;
+}
+a:visited {
+  color: purple;
+}
+a:link:hover {
+color: blue; /* Mouse over link */
+text-decoration: underline;
+}
+a:visited:hover {
+color: blue; /* Mouse over link */
+text-decoration: underline;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
