@@ -61,8 +61,13 @@ h1 {
 h2 {
   font-size: 2rem;
   font-weight: 600;
+  counter-reset: numbercount;
 }
 h3 {
   font-size: 1.25rem;
   font-weight: 600;
+}
+.numbering::before {
+  counter-increment: numbercount;
+  content: counter(numbercount) ". ";
 }
