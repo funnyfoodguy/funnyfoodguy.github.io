@@ -1,21 +1,21 @@
 /* Custom Stylesheet */
 @font-face {
   font-family: 'RG2014C';
-  src: url(./RG2014/RG2014C.eot);
-  src: url(./RG2014/RG2014C.eot?#iefix) format('embedded-opentype'),
-       url(./RG2014/RG2014C.woff2) format('woff2'),
-       url(./RG2014/RG2014C.woff) format('woff'),
-       url(./RG2014/RG2014C.ttf) format('truetype'),
-       url(./RG2014/RG2014C.svg#RG2014C) format('svg');
+  src: url(./css/RG2014/RG2014C.eot);
+  src: url(./css/RG2014/RG2014C.eot?#iefix) format('embedded-opentype'),
+       url(./css/RG2014/RG2014C.woff2) format('woff2'),
+       url(./css/RG2014/RG2014C.woff) format('woff'),
+       url(./css/RG2014/RG2014C.ttf) format('truetype'),
+       url(./css/RG2014/RG2014C.svg#RG2014C) format('svg');
 }
 @font-face {
   font-family: 'RG2014D';
-  src: url(./RG2014/RG2014D.eot);
-  src: url(./RG2014/RG2014D.eot?#iefix) format('embedded-opentype'),
-       url(./RG2014/RG2014D.woff2) format('woff2'),
-       url(./RG2014/RG2014D.woff) format('woff'),
-       url(./RG2014/RG2014D.ttf) format('truetype'),
-       url(./RG2014/RG2014D.svg#RG2014D) format('svg');
+  src: url(./css/RG2014/RG2014D.eot);
+  src: url(./css/RG2014/RG2014D.eot?#iefix) format('embedded-opentype'),
+       url(./css/RG2014/RG2014D.woff2) format('woff2'),
+       url(./css/RG2014/RG2014D.woff) format('woff'),
+       url(./css/RG2014/RG2014D.ttf) format('truetype'),
+       url(./css/RG2014/RG2014D.svg#RG2014D) format('svg');
 }
 .icon-block {
   padding: 0 15px;
