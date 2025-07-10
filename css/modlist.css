@@ -1,4 +1,22 @@
 /* Custom Stylesheet */
+@font-face {
+  font-family: 'RG2014C';
+  src: url('./RG2014/RG2014C.eot');
+  src: url('./RG2014/RG2014C.eot?#iefix') format('embedded-opentype'),
+       url('./RG2014/RG2014C.woff2') format('woff2'),
+       url('./RG2014/RG2014C.woff') format('woff'),
+       url('./RG2014/RG2014C.ttf') format('truetype'),
+       url('./RG2014/RG2014C.svg#RG2014C') format('svg');
+}
+@font-face {
+  font-family: 'RG2014D';
+  src: url('./RG2014/RG2014D.eot');
+  src: url('./RG2014/RG2014D.eot?#iefix') format('embedded-opentype'),
+       url('./RG2014/RG2014D.woff2') format('woff2'),
+       url('./RG2014/RG2014D.woff') format('woff'),
+       url('./RG2014/RG2014D.ttf') format('truetype'),
+       url('./RG2014/RG2014D.svg#RG2014D') format('svg');
+}
 .icon-block {
   padding: 0 15px;
 }
@@ -6,7 +24,7 @@
 	font-size: inherit;
 }
 html {
-  font-family: Segoe UI, sans-serif;
+  font-family: RG2014C;
 }
 .sidenav {
   color: #000000;
@@ -34,10 +52,10 @@ li {
   background-color: #000000;
 }
 p {
-  font-size:1.1rem;
+  font-size:1.4rem;
 }
 a {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   color: black;
 }
 a:link {
@@ -55,17 +73,17 @@ color: blue; /* Mouse over link */
 text-decoration: underline;
 }
 h1 {
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 3.5rem;
+  font-weight: 500;
 }
 h2 {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 2.2rem;
+  font-weight: 500;
   counter-reset: numbercount;
 }
 h3 {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.7rem;
+  font-weight: 500;
 }
 .numbering::before {
   counter-increment: numbercount;
