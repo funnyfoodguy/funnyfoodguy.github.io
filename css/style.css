@@ -52,3 +52,13 @@ li {
 .btn-large:hover {
   transform: scale(1.1);
 }
+.outlineW {
+  text-shadow:
+    2px 2px 0 #ffffff,
+    -2px 2px 0 #ffffff,
+    -2px -2px 0 #ffffff,
+    2px -2px 0 #ffffff;
+}
+h1.outline {
+  font-family: RG2014D;
+}
