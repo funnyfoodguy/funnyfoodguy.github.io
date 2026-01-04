@@ -24,6 +24,7 @@
 	font-size: inherit;
 }
 body {
+  --bg: hsl(180deg 100% 100%);
   font-family: RG2014C;
 }
 html {
@@ -51,6 +52,7 @@ li {
 }
 .btn-large:hover {
   transform: scale(1.1);
+  box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%);
 }
 .outlineW {
   text-shadow:
@@ -61,4 +63,28 @@ li {
 }
 h1.outline {
   font-family: RG2014D;
+}
+.animatedOutline {
+  --border-angle: 0deg;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%);
+  border: 4px solid transparent;
+  background: linear-gradient(black, black) padding-box,
+    conic-gradient(
+      from var(--border-angle),
+      var(--bg) 50%,
+      /*#03f6c0*/
+      #02c6a3
+    )
+    border-box;
+    animation: border-angle-rotate 1s infinite linear;
+}
+@keyframes border-angle-rotate {
+  from { --border-angle: 0deg; }
+  to { --border-angle: 360deg; }
+}
+@property --border-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
 }
