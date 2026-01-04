@@ -53,7 +53,6 @@ li {
   transform: scale(1.1);
 }
 .outlineW {
-  -webkit-text-stroke: 2px white;
   text-shadow:
     2px 2px 0 #ffffff,
     -2px 2px 0 #ffffff,
