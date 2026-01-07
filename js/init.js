@@ -4,15 +4,15 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 document.addEventListener("click", function() {
-  if (document.body.style.overflow !== 'hidden' && document.URL === 'https://funnyfoodguy.com'){
+  if (document.body.style.overflow !== 'hidden' && document.title === 'funnyfoodguy'){
     document.body.style.overflow = 'hidden';
   };
 });
 
 
 
-document.addEventListener("ontouchstart", function() {
-  if (document.body.style.overflow !== 'hidden' && document.URL === 'https://funnyfoodguy.com'){
+document.addEventListener("touchstart", function() {
+  if (document.body.style.overflow !== 'hidden' && document.title === 'funnyfoodguy'){
     document.body.style.overflow = 'hidden';
   };
 }, false);
