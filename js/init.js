@@ -15,7 +15,7 @@ document.addEventListener("touchstart", function() {
     document.body.style.overflow = 'hidden';
   };
 }, {
-  passive: false
+  passive: true
 });
 
 var touchTarget,
