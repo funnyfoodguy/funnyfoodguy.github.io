@@ -8,10 +8,16 @@ document.addEventListener("click", function() {
     document.body.style.overflow = 'hidden';
   };
 });
+
+const nonePassive = {
+  passive: false,
+};
 document.addEventListener("touchstart", function() {
   if (document.body.style.overflow !== 'hidden' && document.URL === 'https://funnyfoodguy.com'){
     document.body.style.overflow = 'hidden';
   };
+}, {
+  passive: true
 });
 
 var touchTarget,
