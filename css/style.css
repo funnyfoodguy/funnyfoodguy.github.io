@@ -29,8 +29,6 @@ body {
 }
 html {
   font-family: RG2014C;
-  overflow: hidden;
-  overflow-y: hidden;
 }
 .sidenav {
   color: #000000;
@@ -50,6 +48,9 @@ nav .brand-logo {
   display: contents;
 }
 #logo-container {
+  pointer-events: all;
+}
+#logo-container.noLink {
   pointer-events: none;
 }
 li {
@@ -66,6 +67,53 @@ li {
   transform: scale(1.1);
   box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%);
 }
+
+
+
+
+.filled-in.filled-in:checked+span:not(.lever):after {
+  border: 2px solid #000000;
+  background-color: #000000;
+}
+a.modlist {
+  font-size: 1.4rem;
+  color: black;
+}
+a.modlist:link {
+  color: teal;
+}
+a.modlist:visited {
+  color: purple;
+}
+a.modlist:link:hover {
+color: blue; /* Mouse over link */
+text-decoration: underline;
+}
+a.modlist:visited:hover {
+color: blue; /* Mouse over link */
+text-decoration: underline;
+}
+h1.modlist {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+h2.modlist {
+  font-size: 2.2rem;
+  font-weight: 500;
+  counter-reset: numbercount;
+}
+h3.modlist{
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.numbering::before {
+  counter-increment: numbercount;
+  content: counter(numbercount) ". ";
+}
+
+
+
+
 .outlineW {
   text-shadow:
     2px 2px 0 #ffffff,
