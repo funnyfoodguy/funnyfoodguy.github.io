@@ -9,7 +9,9 @@ document.addEventListener("click", function() {
   };
 });
 
-window.addEventListener("touchstart", function() {
+
+
+document.addEventListener("ontouchstart", function() {
   if (document.body.style.overflow !== 'hidden' && document.URL === 'https://funnyfoodguy.com'){
     document.body.style.overflow = 'hidden';
   };
