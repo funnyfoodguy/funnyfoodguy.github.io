@@ -9,9 +9,19 @@ document.addEventListener("click", function() {
   };
 }, false);
 
-
-
 document.addEventListener("touchstart", function() {
+  if (document.body.style.overflow !== 'hidden' && document.title === 'funnyfoodguy'){
+    document.body.style.overflow = 'hidden';
+  };
+}, false);
+
+document.addEventListener("touchmove", function() {
+  if (document.body.style.overflow !== 'hidden' && document.title === 'funnyfoodguy'){
+    document.body.style.overflow = 'hidden';
+  };
+}, false);
+
+document.addEventListener("touchcancel", function() {
   if (document.body.style.overflow !== 'hidden' && document.title === 'funnyfoodguy'){
     document.body.style.overflow = 'hidden';
   };
