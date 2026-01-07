@@ -7,7 +7,7 @@ document.addEventListener("click", function() {
   if (document.body.style.overflow !== 'hidden' && document.title === 'funnyfoodguy'){
     document.body.style.overflow = 'hidden';
   };
-});
+}, false);
 
 
 
