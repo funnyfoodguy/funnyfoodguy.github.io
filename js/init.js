@@ -8,6 +8,11 @@ document.addEventListener("click", function() {
     document.body.style.overflow = 'hidden';
   };
 });
+document.addEventListener("touched", function() {
+  if (document.body.style.overflow !== 'hidden' && document.URL === 'https://funnyfoodguy.com'){
+    document.body.style.overflow = 'hidden';
+  };
+});
 
 var touchTarget,
     touchScreenX,
