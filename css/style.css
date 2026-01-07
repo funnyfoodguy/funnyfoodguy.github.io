@@ -38,6 +38,14 @@ html {
 .sidenav-trigger {
   color: #000000;
 }
+nav .sidenav-trigger i {
+  line-height: 48px;
+}
+@media only screen and (min-width: 601px) {
+  nav a.sidenav-trigger i {
+    line-height: 56px;
+  }
+}
 nav .brand-logo {
   display: contents;
 }
@@ -51,6 +59,10 @@ li {
   font-weight: 500;
 }
 .btn-large:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%);
+}
+.enlargeOnHover:hover {
   transform: scale(1.1);
   box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%);
 }
@@ -75,6 +87,51 @@ h1.outline {
       var(--bg) 50%,
       /*#03f6c0*/
       #02c6a3
+    )
+    border-box;
+    animation: border-angle-rotate 1s infinite linear;
+}
+.animatedOutline:hover {
+  --border-angle: 0deg;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%);
+  border: 4px solid transparent;
+  background: linear-gradient(black, black) padding-box,
+    conic-gradient(
+      from var(--border-angle),
+      var(--bg) 2%,
+      /*#03f6c0*/
+      #ffde00
+    )
+    border-box;
+    animation: border-angle-rotate 1s infinite linear;
+}
+.animatedOutlineW {
+  --border-angle: 0deg;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%) inset;
+  border: 4px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+    conic-gradient(
+      from var(--border-angle),
+      var(--bg) 50%,
+      /*#03f6c0*/
+      #02c6a3
+    )
+    border-box;
+    animation: border-angle-rotate 1s infinite linear;
+}
+.animatedOutlineW:hover {
+  --border-angle: 0deg;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%) inset;
+  border: 4px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+    conic-gradient(
+      from var(--border-angle),
+      var(--bg) 2%,
+      /*#03f6c0*/
+      #ffde00
     )
     border-box;
     animation: border-angle-rotate 1s infinite linear;
