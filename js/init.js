@@ -1,11 +1,13 @@
-(function($){
-  $(function(){
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, {});
+  });
 
-    $('.sidenav').sidenav();
-
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
-
+document.addEventListener("click", function() {
+  if (document.body.style.overflow !== 'hidden' && document.URL === 'https://funnyfoodguy.com'){
+    document.body.style.overflow = 'hidden';
+  };
+});
 
 var touchTarget,
     touchScreenX,
@@ -20,6 +22,7 @@ conditionParentUntilTrue = function (element, condition) {
     if (element === document.body) {
         return false;
     }
+
 
     outcome = condition(element);
 
@@ -87,4 +90,3 @@ window.addEventListener('touchmove', function (e) {
         disableScroll = true;
     }
 });
-
