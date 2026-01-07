@@ -15,6 +15,12 @@ document.addEventListener("touchstart", function() {
   };
 }, false);
 
+document.addEventListener("touchend", function() {
+  if (document.body.style.overflow !== 'hidden' && document.title === 'funnyfoodguy'){
+    document.body.style.overflow = 'hidden';
+  };
+}, false);
+
 document.addEventListener("touchmove", function() {
   if (document.body.style.overflow !== 'hidden' && document.title === 'funnyfoodguy'){
     document.body.style.overflow = 'hidden';
