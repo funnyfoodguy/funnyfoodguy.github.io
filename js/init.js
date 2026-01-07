@@ -9,8 +9,6 @@ document.addEventListener("click", function() {
   };
 });
 
-const nonePassive = {
-  passive: false,
 };
 document.addEventListener("touchstart", function() {
   if (document.body.style.overflow !== 'hidden' && document.URL === 'https://funnyfoodguy.com'){
