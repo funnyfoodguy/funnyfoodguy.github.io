@@ -377,6 +377,180 @@ function copy27() {
 }
 
 
+
+
+
+
+
+
+const gpuBtn1 = document.querySelector('.gpu-btn1');
+const gpuText1 = document.querySelector('.gpuText1');
+function copyGPU1() {
+    navigator.clipboard.writeText(gpuText1.innerText);
+
+    gpuBtn1.innerText = 'Copied';
+    gpuText1.classList.add('copied');
+
+    setTimeout(() => {
+        gpuText1.classList.remove('copied');
+        gpuBtn1.innerText = 'Copy';
+    }, 1000);
+}
+
+const gpuBtn2 = document.querySelector('.gpu-btn2');
+const gpuText2 = document.querySelector('.gpuText2');
+function copyGPU2() {
+    navigator.clipboard.writeText(gpuText2.innerText);
+
+    gpuBtn2.innerText = 'Copied';
+    gpuText2.classList.add('copied');
+
+    setTimeout(() => {
+        gpuText2.classList.remove('copied');
+        gpuBtn2.innerText = 'Copy';
+    }, 1000);
+}
+
+const gpuBtn3 = document.querySelector('.gpu-btn3');
+const gpuText3 = document.querySelector('.gpuText3');
+function copyGPU3() {
+    navigator.clipboard.writeText(gpuText3.innerText);
+
+    gpuBtn3.innerText = 'Copied';
+    gpuText3.classList.add('copied');
+
+    setTimeout(() => {
+        gpuText3.classList.remove('copied');
+        gpuBtn3.innerText = 'Copy';
+    }, 1000);
+}
+
+const gpuBtn4 = document.querySelector('.gpu-btn4');
+const gpuText4 = document.querySelector('.gpuText4');
+function copyGPU4() {
+    navigator.clipboard.writeText(gpuText4.innerText);
+
+    gpuBtn4.innerText = 'Copied';
+    gpuText4.classList.add('copied');
+
+    setTimeout(() => {
+        gpuText4.classList.remove('copied');
+        gpuBtn4.innerText = 'Copy';
+    }, 1000);
+}
+
+const gpuBtn5 = document.querySelector('.gpu-btn5');
+const gpuText5 = document.querySelector('.gpuText5');
+function copyGPU5() {
+    navigator.clipboard.writeText(gpuText5.innerText);
+
+    gpuBtn5.innerText = 'Copied';
+    gpuText5.classList.add('copied');
+
+    setTimeout(() => {
+        gpuText5.classList.remove('copied');
+        gpuBtn5.innerText = 'Copy';
+    }, 1000);
+}
+
+const gpuBtn6 = document.querySelector('.gpu-btn6');
+const gpuText6 = document.querySelector('.gpuText6');
+function copyGPU6() {
+    navigator.clipboard.writeText(gpuText6.innerText);
+
+    gpuBtn6.innerText = 'Copied';
+    gpuText6.classList.add('copied');
+
+    setTimeout(() => {
+        gpuText6.classList.remove('copied');
+        gpuBtn6.innerText = 'Copy';
+    }, 1000);
+}
+
+const gpuBtn7 = document.querySelector('.gpu-btn7');
+const gpuText7 = document.querySelector('.gpuText7');
+function copyGPU7() {
+    navigator.clipboard.writeText(gpuText7.innerText);
+
+    gpuBtn7.innerText = 'Copied';
+    gpuText7.classList.add('copied');
+
+    setTimeout(() => {
+        gpuText7.classList.remove('copied');
+        gpuBtn7.innerText = 'Copy';
+    }, 1000);
+}
+
+const gpuBtn8 = document.querySelector('.gpu-btn8');
+const gpuText8 = document.querySelector('.gpuText8');
+function copyGPU8() {
+    navigator.clipboard.writeText(gpuText8.innerText);
+
+    gpuBtn8.innerText = 'Copied';
+    gpuText8.classList.add('copied');
+
+    setTimeout(() => {
+        gpuText8.classList.remove('copied');
+        gpuBtn8.innerText = 'Copy';
+    }, 1000);
+}
+
+const gpuBtn9 = document.querySelector('.gpu-btn9');
+const gpuText9 = document.querySelector('.gpuText9');
+function copyGPU9() {
+    navigator.clipboard.writeText(gpuText9.innerText);
+
+    gpuBtn9.innerText = 'Copied';
+    gpuText9.classList.add('copied');
+
+    setTimeout(() => {
+        gpuText9.classList.remove('copied');
+        gpuBtn9.innerText = 'Copy';
+    }, 1000);
+}
+
+const gpuBtn10 = document.querySelector('.gpu-btn10');
+const gpuText10 = document.querySelector('.gpuText10');
+function copyGPU10() {
+    navigator.clipboard.writeText(gpuText10.innerText);
+
+    gpuBtn10.innerText = 'Copied';
+    gpuText10.classList.add('copied');
+
+    setTimeout(() => {
+        gpuText10.classList.remove('copied');
+        gpuBtn10.innerText = 'Copy';
+    }, 1000);
+}
+
+const gpuBtn11 = document.querySelector('.gpu-btn11');
+const gpuText11 = document.querySelector('.gpuText11');
+function copyGPU11() {
+    navigator.clipboard.writeText(gpuText11.innerText);
+
+    gpuBtn11.innerText = 'Copied';
+    gpuText11.classList.add('copied');
+
+    setTimeout(() => {
+        gpuText11.classList.remove('copied');
+        gpuBtn11.innerText = 'Copy';
+    }, 1000);
+}
+
+const gpuBtn12 = document.querySelector('.gpu-btn12');
+const gpuText12 = document.querySelector('.gpuText12');
+function copyGPU12() {
+    navigator.clipboard.writeText(gpuText12.innerText);
+
+    gpuBtn12.innerText = 'Copied';
+    gpuText12.classList.add('copied');
+
+    setTimeout(() => {
+        gpuText12.classList.remove('copied');
+        gpuBtn12.innerText = 'Copy';
+    }, 1000);
+}
+
 copyBtn1.addEventListener('click', copy1);
 copyBtn2.addEventListener('click', copy2);
 copyBtn3.addEventListener('click', copy3);
@@ -404,3 +578,14 @@ copyBtn24.addEventListener('click', copy24);
 copyBtn25.addEventListener('click', copy25);
 copyBtn26.addEventListener('click', copy26);
 copyBtn27.addEventListener('click', copy27);
+gpuBtn1.addEventListener('click', copyGPU1);
+gpuBtn2.addEventListener('click', copyGPU2);
+gpuBtn3.addEventListener('click', copyGPU3);
+gpuBtn4.addEventListener('click', copyGPU4);
+gpuBtn5.addEventListener('click', copyGPU5);
+gpuBtn6.addEventListener('click', copyGPU6);
+gpuBtn7.addEventListener('click', copyGPU7);
+gpuBtn8.addEventListener('click', copyGPU8);
+gpuBtn9.addEventListener('click', copyGPU9);
+gpuBtn10.addEventListener('click', copyGPU10);
+gpuBtn11.addEventListener('click', copyGPU11);
