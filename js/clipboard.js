@@ -1,8 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.collapsible');
-    var instances = M.Collapsible.init(elems, options);
-  });
-
 const copyBtn1 = document.querySelector('.copy-btn1');
 const text1 = document.querySelector('.text1');
 function copy1() {
