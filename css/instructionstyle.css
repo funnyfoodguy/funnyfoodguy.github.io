@@ -1,0 +1,204 @@
+/* Custom Stylesheet */
+@font-face {
+  font-family: 'RG2014C';
+  src: url('./RG2014/RG2014C.eot');
+  src: url('./RG2014/RG2014C.eot?#iefix') format('embedded-opentype'),
+       url('./RG2014/RG2014C.woff2') format('woff2'),
+       url('./RG2014/RG2014C.woff') format('woff'),
+       url('./RG2014/RG2014C.ttf') format('truetype'),
+       url('./RG2014/RG2014C.svg#RG2014C') format('svg');
+}
+@font-face {
+  font-family: 'RG2014D';
+  src: url('./RG2014/RG2014D.eot');
+  src: url('./RG2014/RG2014D.eot?#iefix') format('embedded-opentype'),
+       url('./RG2014/RG2014D.woff2') format('woff2'),
+       url('./RG2014/RG2014D.woff') format('woff'),
+       url('./RG2014/RG2014D.ttf') format('truetype'),
+       url('./RG2014/RG2014D.svg#RG2014D') format('svg');
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+body {
+  --bg: hsl(180deg 100% 100%);
+  font-family: RG2014C;
+}
+html {
+  font-family: RG2014C;
+}
+.sidenav {
+  color: #000000;
+}
+.sidenav-trigger {
+  color: #000000;
+}
+nav .sidenav-trigger i {
+  line-height: 48px;
+}
+@media only screen and (min-width: 601px) {
+  nav a.sidenav-trigger i {
+    line-height: 56px;
+  }
+}
+nav .brand-logo {
+  display: contents;
+}
+#logo-container {
+  pointer-events: all;
+}
+#logo-container.noLink {
+  pointer-events: none;
+}
+li {
+  font-weight: 500;
+}
+.brand-logo {
+  font-weight: 500;
+}
+.btn-large:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%);
+}
+.enlargeOnHover:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%);
+}
+.hoverCursor:hover {
+  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Modern browsers */
+}
+
+
+
+
+.filled-in.filled-in:checked+span:not(.lever):after {
+  border: 2px solid #000000;
+  background-color: #000000;
+}
+a.modlist {
+  font-size: 1.4rem;
+  color: black;
+}
+a.modlist:link {
+  color: teal;
+}
+a.modlist:visited {
+  color: purple;
+}
+a.modlist:link:hover {
+color: blue; /* Mouse over link */
+text-decoration: underline;
+}
+a.modlist:visited:hover {
+color: blue; /* Mouse over link */
+text-decoration: underline;
+}
+h1.modlist {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+h2.modlist {
+  font-size: 2.2rem;
+  font-weight: 500;
+  counter-reset: numbercount;
+}
+h3.modlist{
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.numbering::before {
+  counter-increment: numbercount;
+  content: counter(numbercount) ". ";
+}
+
+
+
+
+.outlineW {
+  text-shadow:
+    2px 2px 0 #ffffff,
+    -2px 2px 0 #ffffff,
+    -2px -2px 0 #ffffff,
+    2px -2px 0 #ffffff;
+}
+h1.outline {
+  font-family: RG2014D;
+}
+.animatedOutline {
+  --border-angle: 0deg;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%);
+  border: 4px solid transparent;
+  background: linear-gradient(black, black) padding-box,
+    conic-gradient(
+      from var(--border-angle),
+      var(--bg) 50%,
+      /*#03f6c0*/
+      #02c6a3
+    )
+    border-box;
+    animation: border-angle-rotate 1s infinite linear;
+}
+.animatedOutline:hover {
+  --border-angle: 0deg;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%);
+  border: 4px solid transparent;
+  background: linear-gradient(black, black) padding-box,
+    conic-gradient(
+      from var(--border-angle),
+      var(--bg) 2%,
+      /*#03f6c0*/
+      #ffde00
+    )
+    border-box;
+    animation: border-angle-rotate 1s infinite linear;
+}
+.animatedOutlineW {
+  --border-angle: 0deg;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%) inset;
+  border: 4px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+    conic-gradient(
+      from var(--border-angle),
+      var(--bg) 50%,
+      /*#03f6c0*/
+      #02c6a3
+    )
+    border-box;
+    animation: border-angle-rotate 1s infinite linear;
+}
+.animatedOutlineW:hover {
+  --border-angle: 0deg;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px hsl(0 0% 0% / 0%) inset;
+  border: 4px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+    conic-gradient(
+      from var(--border-angle),
+      var(--bg) 2%,
+      /*#03f6c0*/
+      #ffde00
+    )
+    border-box;
+    animation: border-angle-rotate 1s infinite linear;
+}
+@keyframes border-angle-rotate {
+  from { --border-angle: 0deg; }
+  to { --border-angle: 360deg; }
+}
+@property --border-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
