@@ -1,3 +1,21 @@
+function createTokenShow() {
+  var x = document.getElementById("createToken");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function gpuGrindingShow() {
+  var x = document.getElementById("gpuGrinding");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 const copyBtn1 = document.querySelector('.copy-btn1');
 const text1 = document.querySelector('.text1');
 function copy1() {
