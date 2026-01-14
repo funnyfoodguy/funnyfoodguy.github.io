@@ -16,6 +16,11 @@ function gpuGrindingShow() {
   }
 }
 
+function backToTop() {
+  document.body.scrollTop = 0; //For Safari
+  document.documentElement.scrollTop = 0;
+}
+
 const copyBtn1 = document.querySelector('.copy-btn1');
 const text1 = document.querySelector('.text1');
 function copy1() {

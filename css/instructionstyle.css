@@ -84,34 +84,34 @@ li {
   border: 2px solid #000000;
   background-color: #000000;
 }
-a.modlist {
+a.instructions {
   font-size: 1.4rem;
   color: black;
 }
-a.modlist:link {
+a.instructions:link {
   color: teal;
 }
-a.modlist:visited {
+a.instructions:visited {
   color: purple;
 }
-a.modlist:link:hover {
+a.instructions:link:hover {
 color: blue; /* Mouse over link */
 text-decoration: underline;
 }
-a.modlist:visited:hover {
+a.instructions:visited:hover {
 color: blue; /* Mouse over link */
 text-decoration: underline;
 }
-h1.modlist {
+h1.instructions {
   font-size: 3.5rem;
   font-weight: 500;
 }
-h2.modlist {
+h2.instructions {
   font-size: 2.2rem;
   font-weight: 500;
   counter-reset: numbercount;
 }
-h3.modlist{
+h3.instructions{
   font-size: 1.7rem;
   font-weight: 500;
 }
